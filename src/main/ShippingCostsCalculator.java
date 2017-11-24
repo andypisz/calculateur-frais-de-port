@@ -14,6 +14,9 @@ public class ShippingCostsCalculator {
             case MC:
                 frais = pack.calculateMonacoShippingCost();
                 break;
+            case DOM:
+                frais = pack.calculateDomShippingCost();
+                break;
             default:
                 System.out.println("Pas de calcul de frais de port disponible pour cette destination :/");
                 break;

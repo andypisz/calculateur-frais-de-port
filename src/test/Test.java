@@ -37,7 +37,15 @@ public class Test {
 
                 { 653, 133, 271, 2.132d, Destination.MC, "50.10" },
 
-                { 653, 331, 271, 3.650d, Destination.MC, "91.05" }
+                { 653, 331, 271, 3.650d, Destination.MC, "91.05" },
+
+                {191, 123, 18, 2.354d, 	Destination.DOM, "13.91"},
+
+                {253, 215, 164, 1.565d, 	Destination.DOM, "33.29"},
+
+                {653, 133, 271, 2.132d, Destination.DOM, "49.84"},
+
+                {653, 331, 271, 3.650d, Destination.DOM, "89.54"}
         });
     }
 

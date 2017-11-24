@@ -38,4 +38,8 @@ public abstract class Package {
         return calculateLocalShippingCost()*1.087;
     }
 
+    public double calculateDomShippingCost(){
+        return calculateLocalShippingCost()*1.054+1.26;
+    }
+
 }
