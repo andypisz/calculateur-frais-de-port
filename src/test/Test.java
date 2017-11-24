@@ -2,6 +2,7 @@ package test;
 
 import main.Destination;
 import main.Package;
+import main.PackageFactory;
 import main.ShippingCostsCalculator;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -45,7 +46,7 @@ public class Test {
     private int fExpected;
 
     public Test(int height, int width, int depth, double weight, Destination destination, String expectedPrice) {
-        this.pack = new Package(height, width, depth, weight);
+        this.pack = PackageFactory.createPackage(height, width, depth, weight);
         this.destination = destination;
         this.expectedPrice = Double.parseDouble(expectedPrice);
     }
