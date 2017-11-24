@@ -26,5 +26,8 @@ public class Package {
         }
     }
 
+    public double calculateMonacoShippingCost(){
+        return calculateLocalShippingCost()*1.087;
+    }
 
 }
